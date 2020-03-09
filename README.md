@@ -1,1 +1,1 @@
-![alt text](./assets/user_stories.png)
+![User stories](./assets/user_stories.png)
