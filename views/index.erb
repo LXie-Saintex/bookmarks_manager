@@ -1,0 +1,7 @@
+<% if @bookmarks.length %>
+<ul>
+	<% @bookmarks.each do |bookmark| %>
+	<li><a href="<% bookmark[:link] %>"> <%= bookmark[:text] %></a></li>
+	<% end %>
+</ul>
+<% end %>
