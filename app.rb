@@ -1,7 +1,7 @@
 require 'sinatra/base'
 
 class BookmarkManager < Sinatra::Base
-  get '/' do
+  get '/test' do
     'Hello World'
   end
 
