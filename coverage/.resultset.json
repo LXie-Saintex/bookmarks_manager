@@ -13,7 +13,6 @@
         1,
         1,
         1,
-        1,
         null,
         null,
         1,
@@ -21,11 +20,22 @@
       ],
       "/Users/student/projects/bookmarks_manager/lib/bookmarks.rb": [
         1,
+        null,
         1,
         1,
+        2,
+        2,
+        8,
         null,
+        null
+      ],
+      "/Users/student/projects/bookmarks_manager/spec/bookmarks_spec.rb": [
+        1,
         null,
-        null,
+        1,
+        1,
+        1,
+        1,
         1,
         1,
         null,
@@ -44,10 +54,13 @@
         1,
         1,
         1,
+        1,
+        1,
+        1,
         null,
         null
       ]
     },
-    "timestamp": 1583769248
+    "timestamp": 1583852279
   }
 }

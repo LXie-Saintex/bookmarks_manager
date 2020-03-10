@@ -1,10 +1,9 @@
+require 'pg'
+
 class Bookmarks 
-	def initialize 
-		@bookmarks = [{link: 'https://www.github.com', text: 'ruby cheatsheet'}, 
-			{link: 'https://www.google.com', text: 'Google'}, 
-			{link: 'https://www.rockfic.com', text: 'Rock n roll BL'}]
-	end
 	def all 
-		@bookmarks
+		connection = PG.connect(dbname: 'bookmark_manager')
+		results = connection.exec("SELECT * FROM bookmarks;")
+		results.map { |bookmark| bookmark['url'] }
 	end
 end
