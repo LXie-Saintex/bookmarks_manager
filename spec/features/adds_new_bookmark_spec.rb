@@ -4,6 +4,6 @@ feature 'adds new bookmark' do
 		fill_in('title', with: 'KK Harris')
 		fill_in('url', with: 'www.kaelynnharris.com')
 		click_button 'Add'
-		expect(page).to have_content 'www.kaelynnharris.com'
+		expect(page).to have_link('KK Harris', href: 'www.kaelynnharris.com')
 	end
 end

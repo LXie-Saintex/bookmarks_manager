@@ -7,6 +7,8 @@ class BookmarkManager < Sinatra::Base
   end
 
   get '/bookmarks' do 
+  	p "Bookmarks.all: #{Bookmarks.all}"
+  	p "Bookmarks.all.first.class: #{Bookmarks.all.first.class}"
   	@bookmarks =Bookmarks.all
   	erb :index
   end
